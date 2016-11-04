@@ -8,7 +8,7 @@ authentication, etc.
 The # of executors is set automatically to the number of cores available
 to the container.
 
-Default authentication is performed through CAS.
+Default authentication is performed through Harvard CAS.
 
 Sudo is installed along with a sudoers allowing jenkins to run the
 HashBackup application as root.
