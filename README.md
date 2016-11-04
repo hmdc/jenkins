@@ -12,3 +12,6 @@ Default authentication is performed through CAS.
 
 Sudo is installed along with a sudoers allowing jenkins to run the
 HashBackup application as root.
+
+Set VIRTUAL_HOST=fqdn environment variable on run to configure the
+Jenkins URL, also useful for proxied configurations.
