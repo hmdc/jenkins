@@ -10,8 +10,9 @@ to the container.
 
 Default authentication is performed through Harvard CAS.
 
-Sudo is installed along with a sudoers allowing jenkins to run the
-HashBackup application as root.
-
 Set VIRTUAL_HOST=fqdn environment variable on run to configure the
 Jenkins URL, also useful for proxied configurations.
+
+NOTE, at the moment, login is not required to perform any actions. 
+While authentication is performed by CAS, please configure authorization
+appropriately.
