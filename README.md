@@ -10,7 +10,7 @@ to the container.
 
 Default authentication is performed through Harvard CAS.
 
-Set VIRTUAL_HOST=fqdn environment variable on run to configure the
+Set JENKINS_VIRTUAL_HOST=http[s]://fqdn environment variable on run to configure the
 Jenkins URL, also useful for proxied configurations.
 
 NOTE, at the moment, login is not required to perform any actions. 

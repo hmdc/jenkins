@@ -1,7 +1,7 @@
 import jenkins.model.JenkinsLocationConfiguration
 
-def VIRTUAL_HOST = System.getenv("VIRTUAL_HOST")
+def VIRTUAL_HOST = System.getenv("JENKINS_VIRTUAL_HOST")
 
 if (VIRTUAL_HOST) {
-  JenkinsLocationConfiguration.get().setUrl(VIRTUAL_HOST)
+  JenkinsLocationConfiguration.get().setUrl(JENKINS_VIRTUAL_HOST)
 }
