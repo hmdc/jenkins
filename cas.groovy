@@ -3,7 +3,7 @@ import org.jenkinsci.plugins.cas.*
 import hudson.security.*
 
 def instance = Jenkins.getInstance()
-def casprotocol = new protocols.Cas20Protocol('', 'mail', '', false, false,
+def casprotocol = new protocols.Cas20Protocol('mail', 'mail', '', false, false,
   '')
 
 def casRealm = new CasSecurityRealm("https://www.pin1.harvard.edu/cas",
